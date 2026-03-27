@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tamil Doc Chatbot</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>📄 Tamil Doc Chatbot</h1>
+      <p>Ask questions in Tamil or English</p>
+    </header>
+
+    <div class="chat-box" id="chatBox"></div>
+
+    <div class="input-area">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Type your question in Tamil or English..."
+        autocomplete="off"
+      />
+      <button id="sendBtn" onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
